@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="utf-8"?>
+<coverage line-rate="0.988" branch-rate="0.9704999999999999" version="1.9" timestamp="1765893866" lines-covered="165" lines-valid="167" branches-covered="33" branches-valid="34">
+  <sources>
+    <source>C:\Users\pilib\source\repos\CodingBash\CodingBash\</source>
+  </sources>
+  <packages>
+    <package name="CodingBash" line-rate="0.988" branch-rate="0.9704999999999999" complexity="40">
+      <classes>
+        <class name="CodingBash.Workflows.ElfWorkflow" filename="Workflows\ElfWorkflow.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(CodingBash.Interfaces.IToyMachine,CodingBash.Interfaces.IElf,CodingBash.Interfaces.ISleigh)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="19" hits="3" branch="False" />
+                <line number="20" hits="3" branch="False" />
+                <line number="21" hits="3" branch="False" />
+                <line number="22" hits="3" branch="False" />
+                <line number="23" hits="3" branch="False" />
+                <line number="24" hits="3" branch="False" />
+                <line number="25" hits="3" branch="False" />
+                <line number="26" hits="3" branch="False" />
+                <line number="27" hits="3" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="19" hits="3" branch="False" />
+            <line number="20" hits="3" branch="False" />
+            <line number="21" hits="3" branch="False" />
+            <line number="22" hits="3" branch="False" />
+            <line number="23" hits="3" branch="False" />
+            <line number="24" hits="3" branch="False" />
+            <line number="25" hits="3" branch="False" />
+            <line number="26" hits="3" branch="False" />
+            <line number="27" hits="3" branch="False" />
+          </lines>
+        </class>
+        <class name="CodingBash.Workflows.ElfWorkflow/&lt;Work&gt;d__4" filename="Workflows\ElfWorkflow.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="30" hits="3" branch="False" />
+                <line number="33" hits="8" branch="False" />
+                <line number="34" hits="8" branch="False" />
+                <line number="35" hits="8" branch="False" />
+                <line number="36" hits="8" branch="False" />
+                <line number="37" hits="8" branch="False" />
+                <line number="39" hits="8" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="184" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="40" hits="3" branch="False" />
+                <line number="41" hits="3" branch="False" />
+                <line number="42" hits="3" branch="False" />
+                <line number="45" hits="5" branch="False" />
+                <line number="47" hits="5" branch="False" />
+                <line number="48" hits="5" branch="False" />
+                <line number="49" hits="5" branch="False" />
+                <line number="50" hits="5" branch="False" />
+                <line number="51" hits="3" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="30" hits="3" branch="False" />
+            <line number="33" hits="8" branch="False" />
+            <line number="34" hits="8" branch="False" />
+            <line number="35" hits="8" branch="False" />
+            <line number="36" hits="8" branch="False" />
+            <line number="37" hits="8" branch="False" />
+            <line number="39" hits="8" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="184" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="40" hits="3" branch="False" />
+            <line number="41" hits="3" branch="False" />
+            <line number="42" hits="3" branch="False" />
+            <line number="45" hits="5" branch="False" />
+            <line number="47" hits="5" branch="False" />
+            <line number="48" hits="5" branch="False" />
+            <line number="49" hits="5" branch="False" />
+            <line number="50" hits="5" branch="False" />
+            <line number="51" hits="3" branch="False" />
+          </lines>
+        </class>
+        <class name="CodingBash.Workflows.MrsClausWorkFlow" filename="Workflows\MrsClausWorkFlow.cs" line-rate="1" branch-rate="0.9444" complexity="19">
+          <methods>
+            <method name="CancelFamily" signature="(System.String)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="58" hits="3" branch="False" />
+                <line number="59" hits="3" branch="False" />
+                <line number="62" hits="3" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="31" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="63" hits="1" branch="False" />
+                <line number="64" hits="1" branch="False" />
+                <line number="65" hits="1" branch="False" />
+                <line number="66" hits="1" branch="False" />
+                <line number="67" hits="1" branch="False" />
+                <line number="69" hits="2" branch="False" />
+                <line number="70" hits="2" branch="False" />
+                <line number="71" hits="2" branch="False" />
+                <line number="72" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="IsFamilyCancelled" signature="(System.String)" line-rate="1" branch-rate="0.5" complexity="2">
+              <lines>
+                <line number="75" hits="112" branch="False" />
+                <line number="76" hits="112" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="9" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="78" hits="112" branch="False" />
+                <line number="79" hits="112" branch="False" />
+              </lines>
+            </method>
+            <method name="EnqueuePresent" signature="(CodingBash.Models.Present)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="115" hits="112" branch="False" />
+                <line number="116" hits="112" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="15" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="117" hits="2" branch="False" />
+                <line number="118" hits="2" branch="False" />
+                <line number="119" hits="2" branch="False" />
+                <line number="122" hits="110" branch="False" />
+                <line number="123" hits="110" branch="False" />
+                <line number="124" hits="180" branch="False" />
+                <line number="126" hits="110" branch="False" />
+                <line number="128" hits="110" branch="False" />
+                <line number="129" hits="112" branch="False" />
+              </lines>
+            </method>
+            <method name="TryGetNextPresentForElf" signature="(System.String&amp;,CodingBash.Models.Present&amp;)" line-rate="1" branch-rate="1" complexity="6">
+              <lines>
+                <line number="163" hits="130" branch="False" />
+                <line number="164" hits="130" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="13" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="165" hits="110" branch="False" />
+                <line number="166" hits="110" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="27" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="167" hits="40" branch="False" />
+                <line number="168" hits="40" branch="False" />
+                <line number="170" hits="70" branch="False" />
+                <line number="174" hits="90" branch="False" />
+                <line number="176" hits="90" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="51" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="177" hits="70" branch="False" />
+                <line number="178" hits="70" branch="False" />
+                <line number="179" hits="70" branch="False" />
+                <line number="182" hits="20" branch="False" />
+                <line number="183" hits="20" branch="False" />
+                <line number="184" hits="20" branch="False" />
+                <line number="185" hits="130" branch="False" />
+              </lines>
+            </method>
+            <method name="TryDequeueForFamily" signature="(System.String,CodingBash.Models.Present&amp;)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="189" hits="111" branch="False" />
+                <line number="190" hits="111" branch="False" />
+                <line number="193" hits="111" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="23" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="194" hits="1" branch="False" />
+                <line number="195" hits="1" branch="False" />
+                <line number="198" hits="110" branch="False" />
+                <line number="199" hits="111" branch="False" />
+              </lines>
+            </method>
+            <method name="TryDequeueAny" signature="(CodingBash.Models.Present&amp;,System.String&amp;)" line-rate="1" branch-rate="1" complexity="4">
+              <lines>
+                <line number="202" hits="91" branch="False" />
+                <line number="203" hits="3225" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="65" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="204" hits="1511" branch="False" />
+                <line number="205" hits="1511" branch="False" />
+                <line number="207" hits="1511" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="47" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="208" hits="70" branch="False" />
+                <line number="209" hits="70" branch="False" />
+                <line number="210" hits="70" branch="False" />
+                <line number="212" hits="1441" branch="False" />
+                <line number="214" hits="21" branch="False" />
+                <line number="215" hits="21" branch="False" />
+                <line number="216" hits="21" branch="False" />
+                <line number="217" hits="91" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.Collections.Generic.List`1&lt;CodingBash.Interfaces.IToyMachine&gt;,System.Collections.Generic.List`1&lt;CodingBash.Interfaces.IElf&gt;,CodingBash.Interfaces.ISleigh)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="21" hits="11" branch="False" />
+                <line number="22" hits="11" branch="False" />
+                <line number="23" hits="11" branch="False" />
+                <line number="24" hits="11" branch="False" />
+                <line number="25" hits="11" branch="False" />
+                <line number="26" hits="11" branch="False" />
+                <line number="27" hits="11" branch="False" />
+                <line number="28" hits="11" branch="False" />
+                <line number="30" hits="11" branch="False" />
+                <line number="31" hits="11" branch="False" />
+                <line number="32" hits="11" branch="False" />
+                <line number="34" hits="11" branch="False" />
+                <line number="35" hits="11" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="58" hits="3" branch="False" />
+            <line number="59" hits="3" branch="False" />
+            <line number="62" hits="3" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="31" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="63" hits="1" branch="False" />
+            <line number="64" hits="1" branch="False" />
+            <line number="65" hits="1" branch="False" />
+            <line number="66" hits="1" branch="False" />
+            <line number="67" hits="1" branch="False" />
+            <line number="69" hits="2" branch="False" />
+            <line number="70" hits="2" branch="False" />
+            <line number="71" hits="2" branch="False" />
+            <line number="72" hits="3" branch="False" />
+            <line number="75" hits="112" branch="False" />
+            <line number="76" hits="112" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="9" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="78" hits="112" branch="False" />
+            <line number="79" hits="112" branch="False" />
+            <line number="115" hits="112" branch="False" />
+            <line number="116" hits="112" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="15" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="117" hits="2" branch="False" />
+            <line number="118" hits="2" branch="False" />
+            <line number="119" hits="2" branch="False" />
+            <line number="122" hits="110" branch="False" />
+            <line number="123" hits="110" branch="False" />
+            <line number="124" hits="180" branch="False" />
+            <line number="126" hits="110" branch="False" />
+            <line number="128" hits="110" branch="False" />
+            <line number="129" hits="112" branch="False" />
+            <line number="163" hits="130" branch="False" />
+            <line number="164" hits="130" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="13" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="165" hits="110" branch="False" />
+            <line number="166" hits="110" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="27" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="167" hits="40" branch="False" />
+            <line number="168" hits="40" branch="False" />
+            <line number="170" hits="70" branch="False" />
+            <line number="174" hits="90" branch="False" />
+            <line number="176" hits="90" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="51" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="177" hits="70" branch="False" />
+            <line number="178" hits="70" branch="False" />
+            <line number="179" hits="70" branch="False" />
+            <line number="182" hits="20" branch="False" />
+            <line number="183" hits="20" branch="False" />
+            <line number="184" hits="20" branch="False" />
+            <line number="185" hits="130" branch="False" />
+            <line number="189" hits="111" branch="False" />
+            <line number="190" hits="111" branch="False" />
+            <line number="193" hits="111" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="23" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="194" hits="1" branch="False" />
+            <line number="195" hits="1" branch="False" />
+            <line number="198" hits="110" branch="False" />
+            <line number="199" hits="111" branch="False" />
+            <line number="202" hits="91" branch="False" />
+            <line number="203" hits="3225" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="65" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="204" hits="1511" branch="False" />
+            <line number="205" hits="1511" branch="False" />
+            <line number="207" hits="1511" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="47" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="208" hits="70" branch="False" />
+            <line number="209" hits="70" branch="False" />
+            <line number="210" hits="70" branch="False" />
+            <line number="212" hits="1441" branch="False" />
+            <line number="214" hits="21" branch="False" />
+            <line number="215" hits="21" branch="False" />
+            <line number="216" hits="21" branch="False" />
+            <line number="217" hits="91" branch="False" />
+            <line number="21" hits="11" branch="False" />
+            <line number="22" hits="11" branch="False" />
+            <line number="23" hits="11" branch="False" />
+            <line number="24" hits="11" branch="False" />
+            <line number="25" hits="11" branch="False" />
+            <line number="26" hits="11" branch="False" />
+            <line number="27" hits="11" branch="False" />
+            <line number="28" hits="11" branch="False" />
+            <line number="30" hits="11" branch="False" />
+            <line number="31" hits="11" branch="False" />
+            <line number="32" hits="11" branch="False" />
+            <line number="34" hits="11" branch="False" />
+            <line number="35" hits="11" branch="False" />
+          </lines>
+        </class>
+        <class name="CodingBash.Workflows.MrsClausWorkFlow/&lt;ConcurrentElvesAndToyMachines&gt;d__8" filename="Workflows\MrsClausWorkFlow.cs" line-rate="1" branch-rate="1" complexity="4">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="4">
+              <lines>
+                <line number="38" hits="9" branch="False" />
+                <line number="39" hits="9" branch="False" />
+                <line number="41" hits="47" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="139" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="42" hits="10" branch="False" />
+                <line number="43" hits="10" branch="False" />
+                <line number="44" hits="10" branch="False" />
+                <line number="45" hits="10" branch="False" />
+                <line number="47" hits="67" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="288" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="48" hits="20" branch="False" />
+                <line number="49" hits="20" branch="False" />
+                <line number="50" hits="20" branch="False" />
+                <line number="51" hits="20" branch="False" />
+                <line number="53" hits="9" branch="False" />
+                <line number="54" hits="9" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="38" hits="9" branch="False" />
+            <line number="39" hits="9" branch="False" />
+            <line number="41" hits="47" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="139" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="42" hits="10" branch="False" />
+            <line number="43" hits="10" branch="False" />
+            <line number="44" hits="10" branch="False" />
+            <line number="45" hits="10" branch="False" />
+            <line number="47" hits="67" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="288" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="48" hits="20" branch="False" />
+            <line number="49" hits="20" branch="False" />
+            <line number="50" hits="20" branch="False" />
+            <line number="51" hits="20" branch="False" />
+            <line number="53" hits="9" branch="False" />
+            <line number="54" hits="9" branch="False" />
+          </lines>
+        </class>
+        <class name="CodingBash.Workflows.MrsClausWorkFlow/&lt;RunElfs&gt;d__13" filename="Workflows\MrsClausWorkFlow.cs" line-rate="0.9473" branch-rate="1" complexity="4">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0.9473" branch-rate="1" complexity="4">
+              <lines>
+                <line number="132" hits="20" branch="False" />
+                <line number="133" hits="20" branch="False" />
+                <line number="135" hits="130" branch="False" />
+                <line number="136" hits="130" branch="False" />
+                <line number="137" hits="130" branch="False" />
+                <line number="138" hits="130" branch="False" />
+                <line number="139" hits="130" branch="False" />
+                <line number="142" hits="130" branch="False" />
+                <line number="144" hits="130" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="196" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="145" hits="20" branch="False" />
+                <line number="146" hits="20" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="222" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="147" hits="20" branch="False" />
+                <line number="148" hits="20" branch="False" />
+                <line number="152" hits="0" branch="False" />
+                <line number="155" hits="110" branch="False" />
+                <line number="156" hits="110" branch="False" />
+                <line number="157" hits="110" branch="False" />
+                <line number="158" hits="110" branch="False" />
+                <line number="159" hits="20" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="132" hits="20" branch="False" />
+            <line number="133" hits="20" branch="False" />
+            <line number="135" hits="130" branch="False" />
+            <line number="136" hits="130" branch="False" />
+            <line number="137" hits="130" branch="False" />
+            <line number="138" hits="130" branch="False" />
+            <line number="139" hits="130" branch="False" />
+            <line number="142" hits="130" branch="False" />
+            <line number="144" hits="130" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="196" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="145" hits="20" branch="False" />
+            <line number="146" hits="20" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="222" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="147" hits="20" branch="False" />
+            <line number="148" hits="20" branch="False" />
+            <line number="152" hits="0" branch="False" />
+            <line number="155" hits="110" branch="False" />
+            <line number="156" hits="110" branch="False" />
+            <line number="157" hits="110" branch="False" />
+            <line number="158" hits="110" branch="False" />
+            <line number="159" hits="20" branch="False" />
+          </lines>
+        </class>
+        <class name="CodingBash.Workflows.MrsClausWorkFlow/&lt;RunToyMachines&gt;d__11" filename="Workflows\MrsClausWorkFlow.cs" line-rate="1" branch-rate="1" complexity="6">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="6">
+              <lines>
+                <line number="82" hits="10" branch="False" />
+                <line number="84" hits="10" branch="False" />
+                <line number="85" hits="122" branch="False" />
+                <line number="86" hits="122" branch="False" />
+                <line number="87" hits="122" branch="False" />
+                <line number="88" hits="122" branch="False" />
+                <line number="89" hits="122" branch="False" />
+                <line number="91" hits="122" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="177" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="92" hits="10" branch="False" />
+                <line number="94" hits="10" branch="False" />
+                <line number="97" hits="112" branch="False" />
+                <line number="98" hits="112" branch="False" />
+                <line number="99" hits="10" branch="False" />
+                <line number="101" hits="10" branch="False" />
+                <line number="102" hits="10" branch="False" />
+                <line number="104" hits="10" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="259" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="105" hits="9" branch="False" />
+                <line number="106" hits="58" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="336" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="107" hits="20" branch="False" />
+                <line number="108" hits="20" branch="False" />
+                <line number="109" hits="20" branch="False" />
+                <line number="110" hits="9" branch="False" />
+                <line number="111" hits="10" branch="False" />
+                <line number="112" hits="10" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="82" hits="10" branch="False" />
+            <line number="84" hits="10" branch="False" />
+            <line number="85" hits="122" branch="False" />
+            <line number="86" hits="122" branch="False" />
+            <line number="87" hits="122" branch="False" />
+            <line number="88" hits="122" branch="False" />
+            <line number="89" hits="122" branch="False" />
+            <line number="91" hits="122" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="177" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="92" hits="10" branch="False" />
+            <line number="94" hits="10" branch="False" />
+            <line number="97" hits="112" branch="False" />
+            <line number="98" hits="112" branch="False" />
+            <line number="99" hits="10" branch="False" />
+            <line number="101" hits="10" branch="False" />
+            <line number="102" hits="10" branch="False" />
+            <line number="104" hits="10" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="259" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="105" hits="9" branch="False" />
+            <line number="106" hits="58" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="336" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="107" hits="20" branch="False" />
+            <line number="108" hits="20" branch="False" />
+            <line number="109" hits="20" branch="False" />
+            <line number="110" hits="9" branch="False" />
+            <line number="111" hits="10" branch="False" />
+            <line number="112" hits="10" branch="False" />
+          </lines>
+        </class>
+        <class name="CodingBash.Models.Present" filename="Models\Present.cs" line-rate="0.8887999999999999" branch-rate="1" complexity="4">
+          <methods>
+            <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="566" branch="False" />
+              </lines>
+            </method>
+            <method name="get_FamilyId" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="252" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Description" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String,System.String,System.String)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="117" branch="False" />
+                <line number="19" hits="117" branch="False" />
+                <line number="20" hits="117" branch="False" />
+                <line number="21" hits="117" branch="False" />
+                <line number="22" hits="117" branch="False" />
+                <line number="23" hits="117" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="11" hits="566" branch="False" />
+            <line number="13" hits="252" branch="False" />
+            <line number="15" hits="0" branch="False" />
+            <line number="18" hits="117" branch="False" />
+            <line number="19" hits="117" branch="False" />
+            <line number="20" hits="117" branch="False" />
+            <line number="21" hits="117" branch="False" />
+            <line number="22" hits="117" branch="False" />
+            <line number="23" hits="117" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
